@@ -8,48 +8,53 @@
 </head>
 <body>
     <main>
-        <h1>Cristian, Gaston Gonzalez</h1>
+        <h1>Cristian Gaston Gonzalez</h1>
         <p>¡Hola! soy Cristian y tengo 24 años, soy una persona creativa, divertida, empatica y con muchas ganas de aprender cosas nuevas, me considero una persona que no se da por vencida y trata de buscar todas las soluciones posibles a los problemas.También le pongo mucho empeño a los objetivos que me propongo</p>
+       
+        <ul>
+            <li><a href="#seccion1">Experiencia academica</a></li>
+            <li><a href="#seccion2">Intereses o Pasatiempos</a></li>
+            <li><a href="#seccion3">Formulario de contacto</a></li>
+            <li><a href="#seccion4">Contacto</a></li>
+        </ul>
+    
+        <section id="seccion1">
+            <h2>Experiencia academica</h2>
+            <p>Mi experiencia academica se resume en que al ir a la secundaria opte por una tecnica, la cual estaba orientada en construcción, con un titulo de Masetro Mayor de Obras. Tambien realice cursos de instalaciones eléctricas y plomeria, por otra parte inicie la universidad en la UCASAL estudiando Ing en Telecomunicaciones, pero al tener problemas económicos tuve que dejar. Actualmente me encuentro estudiando la carrera de Tec. De Analista en Sistemas</p>
+        </section>
 
-    <ul>
-        <li><a href="#seccion1">Experiencia academica</a></li>
-        <li><a href="#seccion2">Formulario de contacto</a></li>
-        <li><a href="#seccion3">SOMOS VALORANT</a></li>
-    </ul>
+        <section id="seccion2">
+            <h2>Intereses o Pasatiempos</h2>
+            <p>Mis pasatiempos los paso haciendo ejercicio, jugando video juegos, con amigos</p>
+        </section>
 
-    <section id="seccion1">
-        <h2>Experiencia academica</h2>
-        <p>Mi experiencia academica se resume en que al ir a la secundaria opte por una tecnica, la cual estaba orientada en construcción, con un titulo de Masetro Mayor de Obras. Tambien realice cursos de instalaciones eléctricas y plomeria, por otra parte inicie la universidad en la UCASAL estudiando Ing en Telecomunicaciones, pero al tener problemas económicos tuve que dejar. Actualmente me encuentro estudiando la carrera de Tec. De Analista en Sistemas</p>
-    </section>
+        <section id="seccion3">
+            <h2>Formulario de contacto</h2>
+            <form>
+                <fieldset>
+                    <label for="nombre" style="cursor: pointer;">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre-de-usuario" maxlength="50" required><br><br>
+                    <label for="apellido" style="cursor: pointer;">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido-de-usuario" maxlength="50" required><br><br>
+                    <label for="correo" style="cursor: pointer;">Correo:</label>
+                    <input type="text" id="email" name="correo" required><br><br>
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje" cols="80" rows="8"></textarea><br><br>
+                    <button type="submit">Enviar</button>
+                </fieldset>
+            </form>
+        </section>
 
-    <section id="seccion2">
-        <h2>Formulario de contacto</h2>
-        <form>
-            <fieldset>
-                <label for="nombre" style="cursor: pointer;">Nombre:</label>
-                <input type="text" id="nombre" name="nombre-de-usuario" maxlength="50" required><br><br>
-                <label for="apellido" style="cursor: pointer;">Apellido:</label>
-                <input type="text" id="apellido" name="apellido-de-usuario" maxlength="50" required><br><br>
-                <label for="correo" style="cursor: pointer;">Correo:</label>
-                <input type="text" id="email" name="correo" required><br><br>
-                <label for="mensaje">Mensaje</label>
-                <textarea name="mensaje" id="mensaje" cols="80" rows="8"></textarea><br><br>
-                <button type="submit">Enviar</button>
-            </fieldset>
-        </form>
-    </section>
-
-    <section id="seccion3">
-        <article>
-            <h2>SOMOS VALORANT</h2>
-            <h4>DESAFÍA LOS LÍMITES</h4>
-            <p>Combina tu estilo y experiencia en un escenario global y competitivo. Tienes 13 rondas para atacar y defender tu lado con armas precisas y habilidades tácticas. Además, al contar con una sola vida por ronda, tendrás que pensar más rápido que tu oponente si quieres sobrevivir. Enfréntate a enemigos en los modos competitivo y normal, así como en Deathmatch y Spike Rush.</p>
-        </article>
-        <figure style="float: right;">
-            <img src="img/valorant.jpg" width="600px">
-            <figcaption>Juego de shoteer</figcaption>
-        </figure>
-    </section>
+        <section id="seccion4">
+            <h2>Contacto</h2>
+            <footer class="contacto-footer">
+                <p>¡Visita mis redes sociales!</p>
+        <ul>
+            <li><a href="https://instagram.com/cristian.gonzalez3?igshid=MzRlODBiNWFlZA==" target="_blank">Instagram</a></li>
+            <li><a href="https://www.facebook.com/cristiangaston.gonzalez1?mibextid=eBUYbo" target="_blank">Facebook</a></li>
+        </ul>
+            </footer>
+        </section>
     </main>
     
 </body>
